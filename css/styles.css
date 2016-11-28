@@ -25,25 +25,29 @@
 .transparent-black{
 	background: rgba(0,0,0,.7);
 	color: #fff;
-	
+}
+.transparent-black .transparent-black{
+	background: rgba(0,0,0,0);
 }
 .transparent-black a{
 	color: #fff;
 }
 
 #main-content{
-	margin-top: 45px;
+	margin: 45px 0;
 }
 #footer{
 	padding: 5px 0;
-	position: absolute;
+	position: fixed;
     bottom: 0;
     width: 100%;
 }
 .footer-links{
 	margin-bottom: 0;
 }
-
+.room-description{
+	padding: 10px;
+}
 /**
 * Global classes
 */
@@ -74,4 +78,20 @@
 }
 .lSSlideOuter .lSPager.lSGallery{
 	margin: 5px;
+}
+
+
+/*
+* Responsive
+*/
+
+@media (min-width: 992px){
+	.height-md-420{
+		height: 420px;
+		overflow: hidden;
+	}
+	.room-description-wrapper{
+		height: 376px;
+    	overflow: hidden;
+	}
 }

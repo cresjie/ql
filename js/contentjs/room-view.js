@@ -7,4 +7,6 @@ $(function(){
         slideEndAnimation: true,
         currentPagerPosition: 'middle',
 	});
+
+	$('.scrollbar-rail').scrollbar();
 })
