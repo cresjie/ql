@@ -1,0 +1,77 @@
+.main-navbar{
+	min-height: auto;
+	margin-top: 50px;
+	border: 0;
+	border-radius: 0;
+}
+.main-navbar .navbar-toggle .icon-bar{
+	background: #fff;
+}
+.main-navbar .navbar-brand{
+	height: auto;
+}
+.main-navbar .navbar-brand img{
+	position: absolute;
+	top: -38px;
+}
+.main-navbar .navbar-nav li a{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.main-navbar .navbar-nav>li>a:hover{
+	background: rgba(0,0,0,.5);
+	color: #fd2323;
+}
+.transparent-black{
+	background: rgba(0,0,0,.7);
+	color: #fff;
+	
+}
+.transparent-black a{
+	color: #fff;
+}
+
+#main-content{
+	margin-top: 45px;
+}
+#footer{
+	padding: 5px 0;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-links{
+	margin-bottom: 0;
+}
+
+/**
+* Global classes
+*/
+.margin-none{
+	margin: 0;
+}
+
+
+.spacer-bottom{
+	margin-bottom: 1px;
+}
+.spacer-top{
+	margin-top: 1px;
+}
+.full-width{
+	width: 100%;
+}
+.pad-5-10{
+	padding: 5px 10px;
+}
+.sm-row{
+	margin-right: -1px;
+	margin-left: -1px;
+}
+.sm-row .column{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.lSSlideOuter .lSPager.lSGallery{
+	margin: 5px;
+}
